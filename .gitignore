@@ -1,0 +1,16 @@
+*.tfvars
+*.tfvars.json
+terraform.tfvars
+.terraform/
+
+*.tfstate
+*.tfstate.*
+
+# Archivo de bloqueo de estados de Terraform
+.terraform.tfstate.lock.info
+
+# Archivos de log de Terraform
+*.log
+
+# Archivos de planes de ejecución exportados (Pueden contener secretos)
+*.tfplan
